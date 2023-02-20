@@ -3,7 +3,7 @@ const db = require("./db_connection");
 
 /**** Drop existing table, if any ****/
 
-const drop_stuff_table_sql = "DROP TABLE IF EXISTS stuff;"
+const drop_stuff_table_sql = "DROP TABLE IF EXISTS `stuff`;"
 
 db.execute(drop_stuff_table_sql);
 
